@@ -21,7 +21,7 @@ resource "aws_lambda_function" "crawlers" {
   }
 
   tags = {
-    foo = "bar"
+    oof = "rab"
   }
 
 }
