@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "dl" {
   acl    = "private"
 
   tags = {
-    oof = "rab"
+    foo = "bar"
   }
   
   server_side_encryption_configuration {
