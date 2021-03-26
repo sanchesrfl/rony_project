@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "base_bucket_name" {
-  default = "ronyproject-712326765345"
+  default = "ronyproject"
 }
 
 variable "account" {
