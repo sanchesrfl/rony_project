@@ -74,7 +74,7 @@ resource "aws_iam_policy" "glue_policy" {
                 "s3:PutObject",
                 "s3:DeleteObject"
             ],
-            "Resource": "ronyproject-712326765345"
+            "Resource": "*"
         },
         {
             "Effect": "Allow",
