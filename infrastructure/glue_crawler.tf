@@ -1,5 +1,5 @@
 resource "aws_glue_catalog_database" "raw" {
-  name = "rony-exercise-db"
+  name = "onboarding-a3-"
 }
 
 resource "aws_glue_crawler" "raw" {
