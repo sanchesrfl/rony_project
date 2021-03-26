@@ -18,7 +18,7 @@ resource "aws_iam_role" "glue_role" {
 EOF
 
   tags = {
-    foo = "bar"
+    oof = "rab"
   }
 
 }
@@ -149,7 +149,7 @@ resource "aws_iam_role" "lambda" {
 EOF
 
   tags = {
-    foo = "bar"
+    oof = "rab"
   }
 
 }
