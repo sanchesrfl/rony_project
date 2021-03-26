@@ -74,10 +74,7 @@ resource "aws_iam_policy" "glue_policy" {
                 "s3:PutObject",
                 "s3:DeleteObject"
             ],
-            "Resource": [
-                "arn:aws:s3:::aws-glue-*/*",
-                "arn:aws:s3:::*/*aws-glue-*/*"
-            ]
+            "Resource": "ronyproject-712326765345"
         },
         {
             "Effect": "Allow",
@@ -174,6 +171,13 @@ resource "aws_iam_policy" "lambda" {
                 "logs:CreateLogGroup",
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
             ],
             "Resource": "*"
         }
